@@ -1,5 +1,5 @@
-public class Money     {         
-    public static void Change(double input){
+public class MAM   {         
+    public static double[] Change(double input){
 
         double Money,I,II,III,IV,V,VI,VII,VIII,IX,X,XI;
         
@@ -46,5 +46,10 @@ public class Money     {
             XI = Money / 0.25;
             Money = Money%0.25;
             Console.WriteLine("0.25 Bath = {0}", Math.Floor(XI));
+            double[] MMM={Math.Floor(I),
+            Math.Floor(II),Math.Floor(III),Math.Floor(IV),Math.Floor(V),Math.Floor(VI),
+            Math.Floor(VII),Math.Floor(VIII),Math.Floor(IX),Math.Floor(X),Math.Floor(XI)};
+            return MMM;
+
     }
 }

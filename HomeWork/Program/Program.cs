@@ -14,7 +14,7 @@ public class Program {
         PrdoubleStoreInformation(zzz);
         Console.WriteLine("Please input money");
         double input=double.Parse(Console.ReadLine());
-        Money.Change(input);
+        MAM.Change(input);
     }
     public static string recname(){
         Console.WriteLine("Please input Name:");
